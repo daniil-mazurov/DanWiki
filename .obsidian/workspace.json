@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "41f577cf2f09afff",
+    "type": "split",
+    "children": [
+      {
+        "id": "a16793a3fc87973a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1eb6e558d30f24d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d1ed3b5cc286850",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d8196987aeee22c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0eab7858f326551b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13b52dca46399cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc37f5f281f01c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Content.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c51185e0436b6825",
+    "type": "split",
+    "children": [
+      {
+        "id": "2db83e76cf0d1dc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bffca92c6fbdc01c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "98230bf9df51dde8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Poetry",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f58409ed6dc8569",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6a42c92b3beb11dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f4f08e697935be0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a62a9b0549a32b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fcfdb077d2b5993f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83a64c50e8957070",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c8d9908fb9f70a57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "b1eb6e558d30f24d",
+  "lastOpenFiles": [
+    "SQLAlchemy_train/src/path.py",
+    "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
+    "test.ipynb",
+    "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
+    "Docs/TODO.md",
+    "Docs/Content.md",
+    "Docs/Stack/SQLAlcheemy/>SQLAlchemy.md",
+    "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+    "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
+    "Docs/Stack/PostgreSQL/Tips.md",
+    "Docs/Stack/PostgreSQL/Быстрый старт.md",
+    "Docs/Stack/PostgreSQL/>PostgreSQL.md",
+    "Docs/Stack/Poetry/Dict.md",
+    "Docs/Stack/Poetry/About.md",
+    "Docs/Errors/PowerShell.md",
+    "Docs/Commands/Linux.md",
+    "Docs/Commands/Windows.md",
+    "Docs/Errors/>Errors.md",
+    "SQLAlchemy_train/src/__pycache__/models.cpython-312.pyc",
+    "SQLAlchemy_train/src/__pycache__/database.cpython-312.pyc",
+    "SQLAlchemy_train/src/queries/__pycache__/core.cpython-312.pyc",
+    "SQLAlchemy_train/src/queries/__pycache__",
+    "SQLAlchemy_train/src/main.py",
+    "SQLAlchemy_train/src/queries/core.py",
+    "SQLAlchemy_train/src/queries",
+    "SQLAlchemy_train/src/models.py",
+    "Docs/Stack/>Stack.md",
+    "Docs/Commands/>Commands.md",
+    "Docs/Stack/Poetry/>Poetry.md",
+    "SQLAlchemy_train/src/__pycache__/__init__.cpython-312.pyc",
+    "Docs/Моя энциклопедия.canvas",
+    "PowerShells.md",
+    "Без названия.canvas",
+    "Comands.md",
+    "SQLAlchemy_train (Копия)/dist/sqlalchemy_train-0.1.0/README.md",
+    "SQLAlchemy_train (Копия)/README.md",
+    "SQLAlchemy_train/README.md",
+    "Docs/Poetry/poetry config.md"
+  ]
+}

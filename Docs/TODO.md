@@ -1,0 +1,9 @@
+- [x] Poetry
+	- [ ] Интеграция Poetry с CI/CD
+- [ ] PostrgreSQL
+- [ ] SQLAlchemy
+- [ ] Docker
+	- [ ] многоэтапные сборки
+	- [ ] compose
+	- [ ] пробрасывание портов
+- [ ] Redis

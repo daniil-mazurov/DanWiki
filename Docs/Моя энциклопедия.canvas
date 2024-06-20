@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"409ccbf7d2f4487b","type":"file","file":"Docs/Stack/Poetry/Dict.md","x":-980,"y":-660,"width":400,"height":400},
+		{"id":"19c108e64e09405c","type":"file","file":"Docs/Stack/Poetry/About.md","x":-460,"y":-660,"width":400,"height":400},
+		{"id":"4a822a850f639a2b","type":"text","text":"# Poetry","x":-640,"y":-880,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"c6e568888ea45d85","fromNode":"4a822a850f639a2b","fromSide":"bottom","toNode":"409ccbf7d2f4487b","toSide":"top"},
+		{"id":"6cd859901ba650d5","fromNode":"4a822a850f639a2b","fromSide":"bottom","toNode":"19c108e64e09405c","toSide":"top"}
+	]
+}
