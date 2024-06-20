@@ -1,1 +1,3 @@
 SQLAlchemy_train/.env
+SQLAlchemy_train/src/__pycache__
+SQLAlchemy_train/src/queries/__pycache__

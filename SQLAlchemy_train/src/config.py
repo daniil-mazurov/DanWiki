@@ -1,4 +1,8 @@
+import os
+
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+from .path import PATH
 
 
 class Settings(BaseSettings):
@@ -26,10 +30,9 @@ class Settings(BaseSettings):
         """
         return f"postgresql+psycopg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}"
 
-    model_config = SettingsConfigDict(env_file="./.env")
+    model_config = SettingsConfigDict(
+        env_file=os.path.join(os.path.dirname(PATH), ".env")
+    )
 
-
-# with open("../.env") as file:
-#     print(file.read())
 
 settings = Settings()

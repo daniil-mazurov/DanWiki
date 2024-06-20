@@ -1,11 +1,19 @@
-from sqlalchemy import text, insert
+from sqlalchemy import insert, text
 from src.database import (
-    sync_engine,
     async_engine,
-    session_factory,
     async_session_factory,
+    session_factory,
+    sync_engine,
+    Base,
 )
-from src.models import metadata_obj, my_table, ExampleTable
+from src.models import (
+    ExampleTable,
+    ExampleTypes,
+    metadata_obj,
+    my_table,
+    _ExampleEnumDecl,
+    _ExampleEnumImp,
+)
 
 
 async def async_connect():
@@ -26,8 +34,8 @@ def insert_data():
     """Insert data"""
     stmt = insert(my_table).values(
         [
-            {"first_col": "first_val"},
-            {"first_col": "second_val"},
+            {"first_col": "first_val", "enum_val": _ExampleEnumImp.first_var},
+            {"first_col": None, "enum_val": "2"},
         ]
     )
 
@@ -39,8 +47,8 @@ def insert_data():
 def create_tables_orm():
     """Пересоздание всех объявленных таблиц"""
     sync_engine.echo = False
-    ExampleTable.metadata.drop_all(sync_engine)
-    ExampleTable.metadata.create_all(sync_engine)
+    Base.metadata.drop_all(sync_engine)
+    Base.metadata.create_all(sync_engine)
     sync_engine.echo = True
 
 
@@ -72,3 +80,22 @@ async def async_insert_data_orm():
         )
 
         await session.commit()
+
+
+def insert_data_orm__examples_types():
+    with session_factory() as session:
+        data1 = ExampleTypes(
+            limit_val="non none value",
+            maybe_none_val="not none value",
+            enum_val=_ExampleEnumDecl.first_var,
+            foreign_val=1,
+        )
+        data2 = ExampleTypes(
+            limit_val="non none value",
+            enum_val="2",
+            foreign_val=2,
+        )
+
+        session.add_all([data1, data2])
+
+        session.commit()
