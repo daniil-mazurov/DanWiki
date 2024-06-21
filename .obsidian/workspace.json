@@ -14,6 +14,18 @@
               "type": "markdown",
               "state": {
                 "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "584e3c42c9d55683",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,44 +218,45 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "b1eb6e558d30f24d",
+  "active": "c8d9908fb9f70a57",
   "lastOpenFiles": [
-    "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
     "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
     "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-    "SQLAlchemy_train/src/queries/core.py.isorted",
-    "SQLAlchemy_train/src/path.py.isorted",
-    "SQLAlchemy_train/src/database.py.isorted",
-    "SQLAlchemy_train/src/models.py.isorted",
-    "SQLAlchemy_train/src/config.py.isorted",
-    "SQLAlchemy_train/src/main.py.isorted",
+    "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
+    "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
+    "Работа.md",
+    "[[Подключение.md",
+    "Подключение.md",
+    "Docs/Errors/PowerShell.md",
+    "SQLAlchemy_train/main.py",
+    "SQLAlchemy_train/src/queries/__pycache__/async_orm.cpython-312.pyc",
+    "SQLAlchemy_train/src/queries/__pycache__/orm.cpython-312.pyc",
+    "SQLAlchemy_train/src/queries/async_orm.py",
+    "SQLAlchemy_train/src/queries/async.py",
+    "SQLAlchemy_train/src/queries/orm.py",
+    "SQLAlchemy_train/src/__pycache__/models.cpython-312.pyc",
     "SQLAlchemy_train/src/__pycache__/path.cpython-312.pyc",
-    "SQLAlchemy_train/src/path.py",
-    "test.ipynb",
+    "SQLAlchemy_train/src/__pycache__/config.cpython-312.pyc",
+    "SQLAlchemy_train/src/__pycache__/database.cpython-312.pyc",
+    "Docs/Commands/Linux.md",
+    "Docs/Stack/PostgreSQL/Tips.md",
+    "Docs/Моя энциклопедия.canvas",
+    "Docs/Errors/Python.md",
+    "Docs/Errors/>Errors.md",
+    "Docs/Stack/SQLAlcheemy/>SQLAlchemy.md",
     "Docs/TODO.md",
     "Docs/Content.md",
-    "Docs/Stack/SQLAlcheemy/>SQLAlchemy.md",
-    "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
-    "Docs/Stack/PostgreSQL/Tips.md",
     "Docs/Stack/PostgreSQL/Быстрый старт.md",
     "Docs/Stack/PostgreSQL/>PostgreSQL.md",
     "Docs/Stack/Poetry/Dict.md",
     "Docs/Stack/Poetry/About.md",
-    "Docs/Errors/PowerShell.md",
-    "Docs/Commands/Linux.md",
     "Docs/Commands/Windows.md",
-    "Docs/Errors/>Errors.md",
-    "SQLAlchemy_train/src/__pycache__/models.cpython-312.pyc",
     "Docs/Stack/>Stack.md",
     "Docs/Commands/>Commands.md",
     "Docs/Stack/Poetry/>Poetry.md",
-    "Docs/Моя энциклопедия.canvas",
     "PowerShells.md",
     "Без названия.canvas",
     "Comands.md",
-    "SQLAlchemy_train (Копия)/dist/sqlalchemy_train-0.1.0/README.md",
-    "SQLAlchemy_train (Копия)/README.md",
-    "SQLAlchemy_train/README.md",
-    "Docs/Poetry/poetry config.md"
+    "SQLAlchemy_train (Копия)/dist/sqlalchemy_train-0.1.0/README.md"
   ]
 }

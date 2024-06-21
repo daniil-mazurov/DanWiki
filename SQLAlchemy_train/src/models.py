@@ -42,11 +42,6 @@ my_table = Table(
         nullable=False,
     ),
     Column("date_val", DateTime, server_default=func.now()),
-    Column(
-        "foreign_val",
-        Integer,
-        ForeignKey("tablename.id", ondelete="CASCADE"),
-    ),
 )
 
 

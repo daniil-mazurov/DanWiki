@@ -1,11 +1,30 @@
 {
 	"nodes":[
-		{"id":"409ccbf7d2f4487b","type":"file","file":"Docs/Stack/Poetry/Dict.md","x":-980,"y":-660,"width":400,"height":400},
-		{"id":"19c108e64e09405c","type":"file","file":"Docs/Stack/Poetry/About.md","x":-460,"y":-660,"width":400,"height":400},
-		{"id":"4a822a850f639a2b","type":"text","text":"# Poetry","x":-640,"y":-880,"width":250,"height":60}
+		{"id":"ca3674c4145906c2","x":-1760,"y":-720,"width":3000,"height":1120,"type":"group","label":"Проектное окружение"},
+		{"id":"39a800d8197bca66","x":-1195,"y":-80,"width":400,"height":400,"type":"file","file":"Docs/Stack/PostgreSQL/Быстрый старт.md"},
+		{"id":"297483d4ad46b994","x":-1680,"y":90,"width":250,"height":60,"type":"text","text":"# PostgreSQL"},
+		{"id":"2f531f474ad8b572","x":-1195,"y":-640,"width":400,"height":400,"type":"file","file":"Docs/Stack/SQLAlcheemy/Создание конфигурации.md"},
+		{"id":"77628dfb5739f5c5","x":-1680,"y":-470,"width":250,"height":60,"type":"text","text":"# SQLAlchemy"},
+		{"id":"0c20c246c92db3b0","x":-555,"y":-640,"width":400,"height":400,"type":"file","file":"Docs/Stack/SQLAlcheemy/Подключение к БД.md"},
+		{"id":"7e1c9e245efc2fc9","x":80,"y":-640,"width":400,"height":400,"type":"file","file":"Docs/Stack/SQLAlcheemy/Работа с таблицами.md"},
+		{"id":"a7aced76a65f2881","x":720,"y":-640,"width":400,"height":400,"type":"file","file":"Docs/Stack/SQLAlcheemy/Формирование запросов.md"},
+		{"id":"bf4abb6f89376bf9","x":-560,"y":-80,"width":400,"height":400,"type":"file","file":"Docs/Stack/PostgreSQL/Tips.md"},
+		{"id":"19c108e64e09405c","type":"file","file":"Docs/Stack/Poetry/About.md","x":-1195,"y":590,"width":400,"height":400},
+		{"id":"4a822a850f639a2b","type":"text","text":"# Poetry","x":-1680,"y":760,"width":250,"height":60},
+		{"id":"409ccbf7d2f4487b","type":"file","file":"Docs/Stack/Poetry/Dict.md","x":-560,"y":590,"width":400,"height":400},
+		{"id":"6621818b1ecbd3de","x":-1655,"y":-1760,"width":200,"height":62,"type":"text","text":"# Мой сайт"}
 	],
 	"edges":[
-		{"id":"c6e568888ea45d85","fromNode":"4a822a850f639a2b","fromSide":"bottom","toNode":"409ccbf7d2f4487b","toSide":"top"},
-		{"id":"6cd859901ba650d5","fromNode":"4a822a850f639a2b","fromSide":"bottom","toNode":"19c108e64e09405c","toSide":"top"}
+		{"id":"c5a3196186a59516","fromNode":"297483d4ad46b994","fromSide":"right","toNode":"39a800d8197bca66","toSide":"left"},
+		{"id":"27daa91fb354b193","fromNode":"77628dfb5739f5c5","fromSide":"right","toNode":"2f531f474ad8b572","toSide":"left"},
+		{"id":"f9f3415d03465e99","fromNode":"77628dfb5739f5c5","fromSide":"bottom","toNode":"297483d4ad46b994","toSide":"top"},
+		{"id":"ca58ef5330795cee","fromNode":"2f531f474ad8b572","fromSide":"right","toNode":"0c20c246c92db3b0","toSide":"left"},
+		{"id":"65f9e8a3884afb4a","fromNode":"0c20c246c92db3b0","fromSide":"right","toNode":"7e1c9e245efc2fc9","toSide":"left"},
+		{"id":"ca4740e256398b69","fromNode":"7e1c9e245efc2fc9","fromSide":"right","toNode":"a7aced76a65f2881","toSide":"left"},
+		{"id":"9e0dabdf8b5c2bb6","fromNode":"39a800d8197bca66","fromSide":"right","toNode":"bf4abb6f89376bf9","toSide":"left"},
+		{"id":"8c5a0b9fcd3b74e5","fromNode":"ca3674c4145906c2","fromSide":"left","toNode":"4a822a850f639a2b","toSide":"left"},
+		{"id":"96aa5b9f27f82370","fromNode":"4a822a850f639a2b","fromSide":"right","toNode":"19c108e64e09405c","toSide":"left"},
+		{"id":"125ee5c8d64db443","fromNode":"19c108e64e09405c","fromSide":"right","toNode":"409ccbf7d2f4487b","toSide":"left"},
+		{"id":"05fd598b0c3a7fae","fromNode":"6621818b1ecbd3de","fromSide":"bottom","toNode":"77628dfb5739f5c5","toSide":"top"}
 	]
 }
