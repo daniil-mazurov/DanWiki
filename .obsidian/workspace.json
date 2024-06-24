@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-                "mode": "preview",
+                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md"
+                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md"
               }
             }
           }
@@ -218,10 +218,10 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c8d9908fb9f70a57",
+  "active": "b1eb6e558d30f24d",
   "lastOpenFiles": [
-    "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
     "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+    "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
     "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
     "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
     "Работа.md",

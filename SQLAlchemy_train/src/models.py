@@ -86,3 +86,21 @@ class ExampleTypes(Base):
     #     server_default=text("TIMEZONE('utc',now())")
     # )
     # date_val: Mapped[datetime] = mapped_column(default=datetime.now())
+
+
+class Workload(enum.Enum):
+    fulltime = 1
+    parttime = 2
+
+
+class TestTable(Base):
+    __tablename__ = "testtable"
+
+    id: Mapped[intpk]
+    title: Mapped[str] = mapped_column(String(256))
+    compensation: Mapped[int]
+    workload: Mapped[Workload]
+    worker_id: Mapped[int | None] = mapped_column(
+        ForeignKey("tablename.id", ondelete="CASCADE")
+    )
+    created_at: Mapped[datetime] = mapped_column(server_default=func.now())

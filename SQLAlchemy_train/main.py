@@ -16,9 +16,11 @@ from src.queries.async_orm import *
 
 create_tables_orm()
 insert_data_orm()
-insert_data_orm__examples_types()
-select_data_orm()
-update_data_orm()
+# insert_data_orm__examples_types()
+insert_test_data()
+select_test_data()
+# select_data_orm()
+# update_data_orm()
 
 
 # asyncio.run(async_insert_data_orm())
