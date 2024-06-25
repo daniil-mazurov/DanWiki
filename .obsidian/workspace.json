@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Формирование запросов.md"
+                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md"
               }
             }
           }
@@ -220,24 +220,24 @@
   },
   "active": "b1eb6e558d30f24d",
   "lastOpenFiles": [
+    "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
     "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
     "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
     "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
-    "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
+    "SQLAlchemy_train/src/queries/core.py.isorted",
+    "SQLAlchemy_train/src/queries/async_orm.py.isorted",
+    "SQLAlchemy_train/src/queries/orm.py.isorted",
+    "SQLAlchemy_train/src/path.py.isorted",
+    "SQLAlchemy_train/src/database.py.isorted",
+    "SQLAlchemy_train/src/models.py.isorted",
+    "SQLAlchemy_train/src/config.py.isorted",
+    "SQLAlchemy_train/main.py.isorted",
+    "SQLAlchemy_train/src/annotated_types.py",
     "Работа.md",
     "[[Подключение.md",
     "Подключение.md",
     "Docs/Errors/PowerShell.md",
     "SQLAlchemy_train/main.py",
-    "SQLAlchemy_train/src/queries/__pycache__/async_orm.cpython-312.pyc",
-    "SQLAlchemy_train/src/queries/__pycache__/orm.cpython-312.pyc",
-    "SQLAlchemy_train/src/queries/async_orm.py",
-    "SQLAlchemy_train/src/queries/async.py",
-    "SQLAlchemy_train/src/queries/orm.py",
-    "SQLAlchemy_train/src/__pycache__/models.cpython-312.pyc",
-    "SQLAlchemy_train/src/__pycache__/path.cpython-312.pyc",
-    "SQLAlchemy_train/src/__pycache__/config.cpython-312.pyc",
-    "SQLAlchemy_train/src/__pycache__/database.cpython-312.pyc",
     "Docs/Commands/Linux.md",
     "Docs/Stack/PostgreSQL/Tips.md",
     "Docs/Моя энциклопедия.canvas",
@@ -256,7 +256,6 @@
     "Docs/Stack/Poetry/>Poetry.md",
     "PowerShells.md",
     "Без названия.canvas",
-    "Comands.md",
-    "SQLAlchemy_train (Копия)/dist/sqlalchemy_train-0.1.0/README.md"
+    "Comands.md"
   ]
 }

@@ -4,19 +4,20 @@ from typing import Annotated
 
 from sqlalchemy import (
     Column,
+    DateTime,
     Enum,
     ForeignKey,
     Integer,
     MetaData,
     String,
     Table,
-    DateTime,
     func,
     text,
 )
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from .database import Base
+from .config import intpk, str_256
 
 
 #
@@ -59,9 +60,7 @@ class ExampleTable(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     first_col: Mapped[str]
 
-
-intpk = Annotated[int, mapped_column(primary_key=True)]
-str_256 = Annotated[str, 256]
+    extern_conn: Mapped[list["TestTable"]] = relationship(back_populates="worker")
 
 
 class ExampleTypes(Base):
@@ -97,10 +96,12 @@ class TestTable(Base):
     __tablename__ = "testtable"
 
     id: Mapped[intpk]
-    title: Mapped[str] = mapped_column(String(256))
+    title: Mapped[str_256]
     compensation: Mapped[int]
     workload: Mapped[Workload]
     worker_id: Mapped[int | None] = mapped_column(
         ForeignKey("tablename.id", ondelete="CASCADE")
     )
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())
+
+    worker: Mapped["ExampleTable"] = relationship(back_populates="extern_conn")

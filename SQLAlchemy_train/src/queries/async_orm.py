@@ -1,9 +1,6 @@
 from sqlalchemy import Integer, func, insert, select, text
 from sqlalchemy.orm import aliased
-from src.database import (
-    async_engine,
-    async_session_factory,
-)
+from src.database import async_engine, async_session_factory
 from src.models import ExampleTable, TestTable
 
 

@@ -1,18 +1,17 @@
-from sqlalchemy import Integer, and_, select, func, cast
-from src.database import (
-    session_factory,
-    sync_engine,
-    Base,
-)
-from src.models import ExampleTable, ExampleTypes, _ExampleEnumDecl, TestTable, Workload
+from sqlalchemy import Integer, and_, cast, func, select
+from src.database import Base, session_factory, sync_engine
+from src.models import ExampleTable, ExampleTypes, TestTable, Workload, _ExampleEnumDecl
+from sqlalchemy.orm import joinedload, selectinload
+
+from pandas import read_sql
 
 
 def create_tables_orm():
     """Пересоздание всех объявленных таблиц"""
-    sync_engine.echo = False
     Base.metadata.drop_all(sync_engine)
-    Base.metadata.create_all(sync_engine)
     # sync_engine.echo = True
+    Base.metadata.create_all(sync_engine)
+    sync_engine.echo = False
 
 
 def insert_data_orm():
@@ -120,11 +119,15 @@ def select_test_data():
             # .having(cast(func.avg(TestTable.compensation), Integer) > 70000)
         )
 
-        print(query.compile(compile_kwargs={"literal_binds": True}))
+        # print(query.compile(compile_kwargs={"literal_binds": True}))
 
-        result = session.execute(query)
+        # result = session.execute(query)
 
-        print(result.all())
+        # print(result.all())
+
+        df = read_sql(sql=query, con=session.connection())
+        
+        print(df)
 
 
 def update_data_orm():
@@ -133,3 +136,17 @@ def update_data_orm():
         first_data_obj.maybe_none_val = "new_val"
 
         session.commit()
+
+
+def joined_load_data():
+    with session_factory() as session:
+        query = select(ExampleTable).options(joinedload(ExampleTable.extern_conn))
+
+        # result = session.execute(query)
+        # result = result.unique().scalars().all()
+        # print(*[item.extern_conn for item in result], sep="\n")
+        
+        df = read_sql(sql=query, con=session.connection())
+        
+        print(df)
+
