@@ -6,5 +6,5 @@ zip filename.zip folder
 
 Установка смены раскладки на Alt + Shift
 ```
-gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Shift>Alt_L']"
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Alt>Shift_L']"
 ```

@@ -60,7 +60,11 @@ class ExampleTable(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     first_col: Mapped[str]
 
-    extern_conn: Mapped[list["TestTable"]] = relationship(back_populates="worker")
+    extern_conn: Mapped[list["TestTable"]] = relationship(
+        back_populates="worker",
+        # primaryjoin='and_(ExampleTable.id == TestTable.worker_id, TestTable.workload == "parttime")',
+        # order_by='TestTable.id.asc()'
+    )
 
 
 class ExampleTypes(Base):

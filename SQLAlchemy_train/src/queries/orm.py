@@ -1,7 +1,7 @@
 from sqlalchemy import Integer, and_, cast, func, select
 from src.database import Base, session_factory, sync_engine
 from src.models import ExampleTable, ExampleTypes, TestTable, Workload, _ExampleEnumDecl
-from sqlalchemy.orm import joinedload, selectinload
+from sqlalchemy.orm import joinedload, selectinload, contains_eager
 
 from pandas import read_sql
 
@@ -126,7 +126,7 @@ def select_test_data():
         # print(result.all())
 
         df = read_sql(sql=query, con=session.connection())
-        
+
         print(df)
 
 
@@ -140,13 +140,29 @@ def update_data_orm():
 
 def joined_load_data():
     with session_factory() as session:
-        query = select(ExampleTable).options(joinedload(ExampleTable.extern_conn))
+        query = select(ExampleTable).options(
+            joinedload(ExampleTable.extern_conn)
+        )  # ВСЕ И ДАЖЕ ПУСТЫЕ
+
+        subq = (
+            select(TestTable.id)
+            .where(TestTable.worker_id == ExampleTable.id)
+            .limit(1)
+            .scalar_subquery()
+            .correlate(ExampleTable)
+        )
+
+        query = (
+            select(ExampleTable)
+            .join(TestTable, TestTable.id.in_(subq))
+            # .join(TestTable)
+            .options(contains_eager(ExampleTable.extern_conn))
+        )  # ТОЛЬКО НЕ ПУСТЫЕ
 
         # result = session.execute(query)
         # result = result.unique().scalars().all()
         # print(*[item.extern_conn for item in result], sep="\n")
-        
-        df = read_sql(sql=query, con=session.connection())
-        
-        print(df)
 
+        df = read_sql(sql=query, con=session.connection())
+        df.to_excel("output.xlsx") 
+        print(df)
