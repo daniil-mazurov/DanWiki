@@ -8,87 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1eb6e558d30f24d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "584e3c42c9d55683",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
+                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0d1ed3b5cc286850",
+            "id": "04eb97063f57f6dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d8196987aeee22c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0eab7858f326551b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13b52dca46399cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc37f5f281f01c32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Content.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -157,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
+                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Работа с таблицами.md"
+                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md"
               }
             }
           }
@@ -219,34 +155,34 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "b1eb6e558d30f24d",
+  "active": "584e3c42c9d55683",
   "lastOpenFiles": [
-    "Без названия.md",
-    "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-    "output.xlsx",
-    "Docs/Content.md",
+    "Docs/Stack/SQLAlcheemy/>SQLAlchemy.md",
+    "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
     "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
-    "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
+    "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
     "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
+    "Docs/Errors/Python.md",
+    "SQLAlchemy_train/src/migrations/versions/__pycache__/75acdad81a5e_.cpython-312.pyc",
+    "SQLAlchemy_train/src/migrations/versions/75acdad81a5e_.py",
+    "SQLAlchemy_train/src/migrations/versions/__pycache__/7450a7c240ba_.cpython-312.pyc",
+    "SQLAlchemy_train/src/migrations/versions/7450a7c240ba_.py",
+    "SQLAlchemy_train/src/migrations/versions/__pycache__/5f813a6076ad_.cpython-312.pyc",
+    "SQLAlchemy_train/src/migrations/versions/5f813a6076ad_.py",
+    "SQLAlchemy_train/src/migrations/versions/99971a05a957_.py",
+    "SQLAlchemy_train/src/migrations/versions/e4705190176b_.py",
+    "SQLAlchemy_train/src/migrations/versions/__pycache__/47a5bdcb77f6_.cpython-312.pyc",
+    "SQLAlchemy_train/src/migrations/versions/47a5bdcb77f6_.py",
+    "Docs/Моя энциклопедия.canvas",
+    "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
+    "Docs/Content.md",
     "Docs/Commands/Linux.md",
-    "SQLAlchemy_train/src/queries/core.py.isorted",
-    "SQLAlchemy_train/src/queries/async_orm.py.isorted",
-    "SQLAlchemy_train/src/queries/orm.py.isorted",
-    "SQLAlchemy_train/src/path.py.isorted",
-    "SQLAlchemy_train/src/database.py.isorted",
-    "SQLAlchemy_train/src/models.py.isorted",
-    "SQLAlchemy_train/src/config.py.isorted",
-    "SQLAlchemy_train/main.py.isorted",
-    "SQLAlchemy_train/src/annotated_types.py",
     "Работа.md",
     "[[Подключение.md",
     "Подключение.md",
     "Docs/Errors/PowerShell.md",
     "Docs/Stack/PostgreSQL/Tips.md",
-    "Docs/Моя энциклопедия.canvas",
-    "Docs/Errors/Python.md",
     "Docs/Errors/>Errors.md",
-    "Docs/Stack/SQLAlcheemy/>SQLAlchemy.md",
     "Docs/TODO.md",
     "Docs/Stack/PostgreSQL/Быстрый старт.md",
     "Docs/Stack/PostgreSQL/>PostgreSQL.md",
@@ -257,7 +193,6 @@
     "Docs/Commands/>Commands.md",
     "Docs/Stack/Poetry/>Poetry.md",
     "PowerShells.md",
-    "Без названия.canvas",
-    "Comands.md"
+    "Без названия.canvas"
   ]
 }

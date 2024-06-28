@@ -2,22 +2,12 @@ import enum
 from datetime import UTC, datetime
 from typing import Annotated
 
-from sqlalchemy import (
-    Column,
-    DateTime,
-    Enum,
-    ForeignKey,
-    Integer,
-    MetaData,
-    String,
-    Table,
-    func,
-    text,
-)
+from sqlalchemy import (Column, DateTime, Enum, ForeignKey, Integer, MetaData,
+                        String, Table, func, text)
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from .database import Base
-from .config import intpk, str_256
+from config import intpk, str_256
+from database import Base
 
 
 #
@@ -84,10 +74,10 @@ class ExampleTypes(Base):
         )
     )
     # foreign_val: Mapped[int] = mapped_column(ForeignKey(ExampleTable.id))
-    date_val: Mapped[datetime] = mapped_column(server_default=func.now())
-    # date_val: Mapped[datetime] = mapped_column(
-    #     server_default=text("TIMEZONE('utc',now())")
-    # )
+    # date_val: Mapped[datetime] = mapped_column(server_default=func.now())
+    date_val: Mapped[datetime] = mapped_column(
+        server_default=text("TIMEZONE('utc',now())")
+    )
     # date_val: Mapped[datetime] = mapped_column(default=datetime.now())
 
 
@@ -103,9 +93,43 @@ class TestTable(Base):
     title: Mapped[str_256]
     compensation: Mapped[int]
     workload: Mapped[Workload]
-    worker_id: Mapped[int | None] = mapped_column(
+    worker_id: Mapped[int] = mapped_column(
         ForeignKey("tablename.id", ondelete="CASCADE")
     )
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())
 
     worker: Mapped["ExampleTable"] = relationship(back_populates="extern_conn")
+    
+    to_anothertesttable: Mapped[list['AnotherTestTable']] = relationship(
+        back_populates='to_testtable',
+        secondary='linkingtable'
+    )
+
+
+class AnotherTestTable(Base):
+    __tablename__ = "anothertesttable"
+
+    id: Mapped[intpk]
+    another_title: Mapped[str_256]
+    another_compensation: Mapped[int | None]
+    
+    to_testtable: Mapped[list['TestTable']] = relationship(
+        back_populates='to_anothertesttable',
+        secondary='linkingtable'
+    )
+
+
+class LinkingTable(Base):
+    __tablename__ = "linkingtable"
+
+    testtable_link: Mapped[int] = mapped_column(
+        ForeignKey("testtable.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+
+    anothertesttable_link: Mapped[int] = mapped_column(
+        ForeignKey("anothertesttable.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+
+    simple_text: Mapped[str | None]

@@ -4,7 +4,7 @@ from sqlalchemy import URL, String, create_engine
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.orm import DeclarativeBase, Session, mapped_column, sessionmaker
 
-from .config import settings, str_256
+from config import settings, str_256
 
 sync_engine = create_engine(
     url=settings.DATABASE_URL_psycopg,
@@ -33,3 +33,4 @@ class Base(DeclarativeBase):
     def __repr__(self):
         cols = [f"{col}={getattr(self, col)}" for col in self.__table__.columns.keys()]
         return f"<{self.__class__.__name__} {', '.join(cols)}>"
+

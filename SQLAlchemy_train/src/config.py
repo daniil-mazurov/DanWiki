@@ -4,7 +4,7 @@ from typing import Annotated
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from sqlalchemy.orm import mapped_column
 
-from .path import PATH
+from path import PATH
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 str_256 = Annotated[str, 256]

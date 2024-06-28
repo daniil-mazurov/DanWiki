@@ -1,15 +1,22 @@
-from sqlalchemy import Integer, and_, cast, func, select
-from src.database import Base, session_factory, sync_engine
-from src.models import ExampleTable, ExampleTypes, TestTable, Workload, _ExampleEnumDecl
-from sqlalchemy.orm import joinedload, selectinload, contains_eager
-
 from pandas import read_sql
+from sqlalchemy import Integer, and_, cast, func, select
+from sqlalchemy.orm import contains_eager, joinedload, selectinload
+from database import Base, session_factory, sync_engine
+from models import (AnotherTestTable, ExampleTable, ExampleTypes,
+                        LinkingTable, TestTable, Workload, _ExampleEnumDecl)
+
+
+def get_data_for_insert(data: dict):
+    return [
+        dict((key, attr) for key, attr in zip(data, attrs))
+        for attrs in zip(*data.values())
+    ]
 
 
 def create_tables_orm():
     """Пересоздание всех объявленных таблиц"""
-    Base.metadata.drop_all(sync_engine)
     # sync_engine.echo = True
+    Base.metadata.drop_all(sync_engine)
     Base.metadata.create_all(sync_engine)
     sync_engine.echo = False
 
@@ -56,33 +63,52 @@ def insert_data_orm__examples_types():
 
 def insert_test_data():
     with session_factory() as session:
-        data1 = TestTable(
-            title="Python Junior Developer",
-            compensation=50000,
-            workload=Workload.fulltime,
-            worker_id=1,
-        )
-        data2 = TestTable(
-            title="Python Developer",
-            compensation=150000,
-            workload=Workload.fulltime,
-            worker_id=1,
-        )
-        data3 = TestTable(
-            title="Python Data Engineer",
-            compensation=250000,
-            workload=Workload.parttime,
-            worker_id=2,
-        )
-        data4 = TestTable(
-            title="Data Scientist",
-            compensation=300000,
-            workload=Workload.fulltime,
-            worker_id=2,
+        data = dict(
+            title=(
+                "Python Junior Developer",
+                "Python Developer",
+                "Python Data Engineer",
+                "Data Scientist",
+            ),
+            compensation=(50000, 150000, 250000, 300000),
+            workload=(
+                Workload.fulltime,
+                Workload.fulltime,
+                Workload.parttime,
+                Workload.fulltime,
+            ),
+            worker_id=(1, 1, 2, 2),
         )
 
-        session.add_all([data1, data2, data3, data4])
+        session.add_all(TestTable(**kwargs) for kwargs in get_data_for_insert(data))
+        session.commit()
 
+
+def insert_link_data():
+    with session_factory() as session:
+        data1 = {
+            "another_title": (
+                "Programmer",
+                "Manager",
+                "Analyst",
+                "Tester",
+                "Boss",
+                "Cleaner",
+            ),
+            "another_compensation": (100000, 70000, 150000, 90000, 1000000, 10000),
+        }
+
+        data2 = {
+            "testtable_link": (2, 2, 3, 5, 6, 4, 1, 4, 5, 8, 9, 2),
+            "anothertesttable_link": (1, 2, 4, 3, 3, 5, 1, 2, 6, 3, 4, 4),
+            # "simple_text": (),
+        }
+
+        session.add_all(
+            AnotherTestTable(**kwargs) for kwargs in get_data_for_insert(data1)
+        )
+        session.flush()
+        session.add_all(LinkingTable(**kwargs) for kwargs in get_data_for_insert(data2))
         session.commit()
 
 
@@ -140,29 +166,32 @@ def update_data_orm():
 
 def joined_load_data():
     with session_factory() as session:
-        query = select(ExampleTable).options(
-            joinedload(ExampleTable.extern_conn)
-        )  # ВСЕ И ДАЖЕ ПУСТЫЕ
-
-        subq = (
-            select(TestTable.id)
-            .where(TestTable.worker_id == ExampleTable.id)
-            .limit(1)
-            .scalar_subquery()
-            .correlate(ExampleTable)
-        )
-
         query = (
             select(ExampleTable)
-            .join(TestTable, TestTable.id.in_(subq))
-            # .join(TestTable)
-            .options(contains_eager(ExampleTable.extern_conn))
-        )  # ТОЛЬКО НЕ ПУСТЫЕ
+            .options(joinedload(ExampleTable.extern_conn).joinedload(TestTable.to_anothertesttable))
+            # .options(joinedload(TestTable.worker))
+        )  # ВСЕ И ДАЖЕ ПУСТЫЕ
+
+        # subq = (
+        #     select(TestTable.id)
+        #     .where(TestTable.worker_id == ExampleTable.id)
+        #     .limit(1)
+        #     .scalar_subquery()
+        #     .correlate(ExampleTable)
+        # )
+
+        # query = (
+        #     select(ExampleTable)
+        #     .join(TestTable, TestTable.id.in_(subq))
+        #     # .join(TestTable)
+        #     .options(contains_eager(ExampleTable.extern_conn))
+        # )  # ТОЛЬКО НЕ ПУСТЫЕ
 
         # result = session.execute(query)
         # result = result.unique().scalars().all()
         # print(*[item.extern_conn for item in result], sep="\n")
 
         df = read_sql(sql=query, con=session.connection())
-        df.to_excel("output.xlsx") 
+        # df = df.drop(columns=["worker_id"])
+        df.to_excel("output.xlsx")
         print(df)

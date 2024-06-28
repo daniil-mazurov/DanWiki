@@ -1,6 +1,6 @@
 from sqlalchemy import insert, select, text, update
-from src.database import sync_engine
-from src.models import _ExampleEnumImp, metadata_obj, my_table
+from database import sync_engine
+from models import _ExampleEnumImp, metadata_obj, my_table
 
 
 def create_tables():

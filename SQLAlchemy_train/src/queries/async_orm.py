@@ -1,7 +1,7 @@
 from sqlalchemy import Integer, func, insert, select, text
 from sqlalchemy.orm import aliased
-from src.database import async_engine, async_session_factory
-from src.models import ExampleTable, TestTable
+from database import async_engine, async_session_factory
+from models import ExampleTable, TestTable
 
 
 async def async_connect():

@@ -1,7 +1,8 @@
 import os
 import sys
 
-sys.path.insert(1, os.path.dirname(os.path.abspath(__file__)))
+# sys.path.insert(1, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(1, os.path.join(sys.path[0], 'src'))
 
 import asyncio
 
@@ -29,5 +30,6 @@ async def main():
 
 asyncio.run(main())
 insert_test_data()
+insert_link_data()
 joined_load_data()
 # select_test_data()
