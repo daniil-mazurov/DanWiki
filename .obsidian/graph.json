@@ -4,55 +4,83 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:Docs/Stack/Poetry  ",
+      "query": "path:Docs/Commands  ",
       "color": {
         "a": 1,
-        "rgb": 14075484
-      }
-    },
-    {
-      "query": "path:Docs/Stack/SQLAlcheemy  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    },
-    {
-      "query": "path:Docs/Stack/PostgreSQL  ",
-      "color": {
-        "a": 1,
-        "rgb": 6065110
+        "rgb": 11361494
       }
     },
     {
       "query": "path:Docs/Errors  ",
       "color": {
         "a": 1,
-        "rgb": 6084188
+        "rgb": 14048429
       }
     },
     {
-      "query": "path:Docs/Commands  ",
+      "query": "file:Py",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 25343
+      }
+    },
+    {
+      "query": "path:\"Docs/Python/1. Base\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65322
+      }
+    },
+    {
+      "query": "path:\"Docs/Python/2. Datastructures and algorythms\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14614328
+      }
+    },
+    {
+      "query": "path:\"Docs/Python/3. Advanced\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "path:\"Docs/Python/4. Frameworks\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16753152
+      }
+    },
+    {
+      "query": "path:\"Docs/Python/5. Testing\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16731392
+      }
+    },
+    {
+      "query": "path:Docs/Stack/PostgreSQL  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1.3,
-  "nodeSizeMultiplier": 1.171875,
-  "lineSizeMultiplier": 2.75416666666667,
+  "nodeSizeMultiplier": 1.78905348621893,
+  "lineSizeMultiplier": 1.18601951427961,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.9999999999999991,
+  "centerStrength": 0.262659354746813,
+  "repelStrength": 16.5572252688555,
+  "linkStrength": 0.850651662986967,
+  "linkDistance": 132,
+  "scale": 0.24237212090436022,
   "close": false
 }

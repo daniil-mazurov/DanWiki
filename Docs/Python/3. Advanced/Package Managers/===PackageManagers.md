@@ -1,0 +1,4 @@
+- [[===Poetry]]
+- [[PyPi]]
+- [[pip]]
+- [[conda]]

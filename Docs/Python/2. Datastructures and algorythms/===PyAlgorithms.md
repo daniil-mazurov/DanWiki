@@ -1,0 +1,3 @@
+- [[Binary Search Trees]]
+- [[Recursion]]
+- [[Sorting algorythms]]

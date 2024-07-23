@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"e65a00ada3488f6f","x":-660,"y":-740,"width":400,"height":400,"type":"file","file":"Docs/Python/1. Base/Basic Syntax.md"},
+		{"id":"0b7742b8f62bea84","type":"text","text":"## Learn the Basics","x":120,"y":-370,"width":260,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"beae792ed8962e02","fromNode":"0b7742b8f62bea84","fromSide":"left","toNode":"e65a00ada3488f6f","toSide":"right"}
+	]
+}

@@ -4,27 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a16793a3fc87973a",
+        "id": "8b1d1e4d3a4a105b",
         "type": "tabs",
         "children": [
           {
-            "id": "584e3c42c9d55683",
+            "id": "67fa69751883f6a5",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04eb97063f57f6dd",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             }
           }
         ]
@@ -93,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docs/Stack/SQLAlcheemy/Миграции с alembic.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -155,44 +141,52 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "584e3c42c9d55683",
+  "active": "67fa69751883f6a5",
   "lastOpenFiles": [
-    "Docs/Stack/SQLAlcheemy/>SQLAlchemy.md",
-    "Docs/Stack/SQLAlcheemy/Миграции с alembic.md",
-    "Docs/Stack/SQLAlcheemy/Создание конфигурации.md",
-    "Docs/Stack/SQLAlcheemy/Работа с таблицами.md",
-    "Docs/Stack/SQLAlcheemy/Формирование запросов.md",
-    "Docs/Errors/Python.md",
-    "SQLAlchemy_train/src/migrations/versions/__pycache__/75acdad81a5e_.cpython-312.pyc",
-    "SQLAlchemy_train/src/migrations/versions/75acdad81a5e_.py",
-    "SQLAlchemy_train/src/migrations/versions/__pycache__/7450a7c240ba_.cpython-312.pyc",
-    "SQLAlchemy_train/src/migrations/versions/7450a7c240ba_.py",
-    "SQLAlchemy_train/src/migrations/versions/__pycache__/5f813a6076ad_.cpython-312.pyc",
-    "SQLAlchemy_train/src/migrations/versions/5f813a6076ad_.py",
-    "SQLAlchemy_train/src/migrations/versions/99971a05a957_.py",
-    "SQLAlchemy_train/src/migrations/versions/e4705190176b_.py",
-    "SQLAlchemy_train/src/migrations/versions/__pycache__/47a5bdcb77f6_.cpython-312.pyc",
-    "SQLAlchemy_train/src/migrations/versions/47a5bdcb77f6_.py",
+    "Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md",
+    "Docs/Python/3. Advanced/===PyAdvanced.md",
+    "Docs/Python/3. Advanced/Modules/===Modules.md",
+    "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
+    "Docs/_attachments/1_AYX4HrL47oD441FtPDG68A.webp",
+    "Docs/_attachments/Не подтверждено 154072.~",
+    "Docs/_attachments/Python_async_threading_multi.jpg",
+    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
+    "Docs/Python/1. Base/Variables and Data Types.md",
+    "Docs/Python/1. Base/Type Casting, Exceptions.md",
+    "Docs/Python/1. Base/Functions, Builtin Functions.md",
+    "Docs/Python/1. Base/Basic Syntax.md",
+    "Docs/Python/1. Base/===PyBasics.md",
+    "Docs/Python Roadmap.md",
+    "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
+    "Docs/_attachments/set_operation.png",
+    "Docs/_attachments/Python_types_structures.jpg",
+    "Docs/_attachments/Python_types_structures.png",
+    "Docs/_attachments/Типы и структуры данных Python.pdf",
+    "Docs/_attachments/190f0661deb5799fa48e2b28385d98a4.png",
+    "Docs/img_src/Не подтверждено 829160.~",
+    "Docs/img_src/Не подтверждено 861640.~",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Формирование запросов.md",
+    "Docs/img_src/Не подтверждено 322039.~",
+    "Docs/img_src/Не подтверждено 84481.~",
+    "Docs/_attachments",
+    "img_src",
+    "Новая папка",
+    "Docs/Python Roadmap.canvas",
     "Docs/Моя энциклопедия.canvas",
-    "Docs/Stack/SQLAlcheemy/Подключение к БД.md",
-    "Docs/Content.md",
-    "Docs/Commands/Linux.md",
-    "Работа.md",
-    "[[Подключение.md",
-    "Подключение.md",
-    "Docs/Errors/PowerShell.md",
+    "Docs/Python/3. Advanced/Package Managers/===PackageManagers.md",
+    "Docs/Python/3. Advanced/OOP/===OOP.md",
     "Docs/Stack/PostgreSQL/Tips.md",
-    "Docs/Errors/>Errors.md",
-    "Docs/TODO.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/===SQLAlchemy.md",
     "Docs/Stack/PostgreSQL/Быстрый старт.md",
-    "Docs/Stack/PostgreSQL/>PostgreSQL.md",
-    "Docs/Stack/Poetry/Dict.md",
-    "Docs/Stack/Poetry/About.md",
-    "Docs/Commands/Windows.md",
-    "Docs/Stack/>Stack.md",
-    "Docs/Commands/>Commands.md",
-    "Docs/Stack/Poetry/>Poetry.md",
-    "PowerShells.md",
-    "Без названия.canvas"
+    "Docs/Errors/Python.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Создание конфигурации.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Работа с таблицами.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Подключение к БД.md",
+    "Docs/Python/5. Testing/===PyTesting.md",
+    "Docs/Python/5. Testing/doctest.md",
+    "Docs/Python/5. Testing/nose.md",
+    "Docs/Python/4. Frameworks/===PyFrameworks.md",
+    "Docs/Python/3. Advanced/RegEx.md",
+    "Docs/Python/3. Advanced/OOP"
   ]
 }

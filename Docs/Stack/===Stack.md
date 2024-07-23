@@ -1,0 +1,6 @@
+- [[===Poetry]]
+- [[===PostgreSQL]]
+- [[===SQLAlchemy]]
+- [[git]]
+- [[Docker]]
+- [[RabbitMQ]]

@@ -1,5 +1,5 @@
 *.venv
 *__pycache__
-SQLAlchemy_train/.env
+*/.env
 *output.xlsx
 polygon.ipynb
