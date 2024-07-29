@@ -4,11 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "8b1d1e4d3a4a105b",
+        "id": "10356b6f3a3e55a2",
         "type": "tabs",
+        "dimension": 40.96938775510204,
         "children": [
           {
-            "id": "67fa69751883f6a5",
+            "id": "6696352e7efd9ef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Python/3. Advanced/Modules/asyncio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e9220eedcc640996",
+        "type": "tabs",
+        "dimension": 59.03061224489796,
+        "children": [
+          {
+            "id": "ce3acf3ec1022f7c",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -83,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docs/Python/3. Advanced/Modules/asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docs/Python/3. Advanced/Modules/asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docs/Python/3. Advanced/Modules/asyncio.md"
+              }
             }
           }
         ],
@@ -128,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 376.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,22 +166,34 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "67fa69751883f6a5",
+  "active": "6696352e7efd9ef3",
   "lastOpenFiles": [
-    "Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md",
-    "Docs/Python/3. Advanced/===PyAdvanced.md",
-    "Docs/Python/3. Advanced/Modules/===Modules.md",
     "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
+    "Docs/Python/3. Advanced/Modules/asyncio.md",
+    "Docs/Python/3. Advanced/Modules/===Modules.md",
+    "Docs/Python/3. Advanced/Package Managers/Poetry/Dict.md",
+    "Docs/Python/1. Base/Type Casting, Exceptions.md",
+    "Docs/Python/1. Base/===PyBasics.md",
+    "Docs/Python/3. Advanced/===PyAdvanced.md",
+    "Docs/Python Roadmap.canvas",
+    "Docs/Python Roadmap.md",
+    "Docs/TODO.md",
+    "Docs/_attachments/Asyncio2.jpg",
+    "test.py",
+    "Docs/Моя энциклопедия.canvas",
+    "Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md",
+    "Docs/Python/2. Datastructures and algorythms/===PyDatastructure.md",
+    "Docs/Python/2. Datastructures and algorythms/===PyAlgorithms.md",
+    "Docs/Python/1. Base/Variables and Data Types.md",
+    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
+    "Docs/Python/1. Base/Functions, Builtin Functions.md",
+    "Docs/Python/1. Base/Basic Syntax.md",
+    "Docs/_attachments/Asyncio.jpg",
+    "Docs/Python/3. Advanced/Paradigms.md",
+    "i.py",
     "Docs/_attachments/1_AYX4HrL47oD441FtPDG68A.webp",
     "Docs/_attachments/Не подтверждено 154072.~",
     "Docs/_attachments/Python_async_threading_multi.jpg",
-    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
-    "Docs/Python/1. Base/Variables and Data Types.md",
-    "Docs/Python/1. Base/Type Casting, Exceptions.md",
-    "Docs/Python/1. Base/Functions, Builtin Functions.md",
-    "Docs/Python/1. Base/Basic Syntax.md",
-    "Docs/Python/1. Base/===PyBasics.md",
-    "Docs/Python Roadmap.md",
     "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
     "Docs/_attachments/set_operation.png",
     "Docs/_attachments/Python_types_structures.jpg",
@@ -170,23 +207,12 @@
     "Docs/img_src/Не подтверждено 84481.~",
     "Docs/_attachments",
     "img_src",
-    "Новая папка",
-    "Docs/Python Roadmap.canvas",
-    "Docs/Моя энциклопедия.canvas",
     "Docs/Python/3. Advanced/Package Managers/===PackageManagers.md",
     "Docs/Python/3. Advanced/OOP/===OOP.md",
     "Docs/Stack/PostgreSQL/Tips.md",
     "Docs/Python/4. Frameworks/SQLAlcheemy/===SQLAlchemy.md",
     "Docs/Stack/PostgreSQL/Быстрый старт.md",
     "Docs/Errors/Python.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Создание конфигурации.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Работа с таблицами.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Подключение к БД.md",
-    "Docs/Python/5. Testing/===PyTesting.md",
-    "Docs/Python/5. Testing/doctest.md",
-    "Docs/Python/5. Testing/nose.md",
-    "Docs/Python/4. Frameworks/===PyFrameworks.md",
-    "Docs/Python/3. Advanced/RegEx.md",
-    "Docs/Python/3. Advanced/OOP"
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Создание конфигурации.md"
   ]
 }

@@ -1,7 +1,7 @@
 - [x] Poetry
 	- [ ] Интеграция Poetry с CI/CD
 - [ ] PostrgreSQL
-- [ ] SQLAlchemy
+- [x] SQLAlchemy
 - [ ] Docker
 	- [ ] многоэтапные сборки
 	- [ ] compose

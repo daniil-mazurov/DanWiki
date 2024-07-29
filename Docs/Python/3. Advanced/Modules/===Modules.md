@@ -2,3 +2,5 @@
 - [[Custom]]
 - [[logging]]
 - [[asyncio]]
+- [[argparse]]
+- [[re]]

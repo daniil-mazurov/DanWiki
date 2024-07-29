@@ -1,9 +1,23 @@
 {
 	"nodes":[
-		{"id":"e65a00ada3488f6f","x":-660,"y":-740,"width":400,"height":400,"type":"file","file":"Docs/Python/1. Base/Basic Syntax.md"},
-		{"id":"0b7742b8f62bea84","type":"text","text":"## Learn the Basics","x":120,"y":-370,"width":260,"height":60,"color":"3"}
+		{"id":"e65a00ada3488f6f","type":"file","file":"Docs/Python/1. Base/Basic Syntax.md","x":-660,"y":-740,"width":400,"height":400},
+		{"id":"85f0aecadf479003","type":"file","file":"Docs/Python/1. Base/Variables and Data Types.md","x":-660,"y":-260,"width":400,"height":400},
+		{"id":"5e7977e86df76a67","type":"file","file":"Docs/Python/1. Base/Type Casting, Exceptions.md","x":720,"y":-740,"width":400,"height":400},
+		{"id":"2f0aa8a7304a1e43","type":"file","file":"Docs/Python/1. Base/Functions, Builtin Functions.md","x":720,"y":-260,"width":400,"height":400},
+		{"id":"57e317f5fb3a5fa7","type":"file","file":"Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md","x":720,"y":220,"width":400,"height":400},
+		{"id":"0b7742b8f62bea84","type":"text","text":"## Learn the Basics","x":80,"y":-90,"width":260,"height":60,"color":"3"},
+		{"id":"e2bc434beb788c1e","type":"text","text":"## Data Structures and Algorithms\n","x":-10,"y":840,"width":440,"height":60,"color":"3"},
+		{"id":"5c3fa7c86fab5a00","x":-660,"y":760,"width":400,"height":400,"type":"file","file":"Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md"},
+		{"id":"61f207619194df6d","type":"text","text":"## Advanced topics","x":80,"y":1800,"width":260,"height":60,"color":"3"}
 	],
 	"edges":[
-		{"id":"beae792ed8962e02","fromNode":"0b7742b8f62bea84","fromSide":"left","toNode":"e65a00ada3488f6f","toSide":"right"}
+		{"id":"beae792ed8962e02","fromNode":"0b7742b8f62bea84","fromSide":"left","toNode":"e65a00ada3488f6f","toSide":"right"},
+		{"id":"4485b8559cd7fb15","fromNode":"0b7742b8f62bea84","fromSide":"left","toNode":"85f0aecadf479003","toSide":"right"},
+		{"id":"4ac97112a63f6332","fromNode":"0b7742b8f62bea84","fromSide":"right","toNode":"5e7977e86df76a67","toSide":"left"},
+		{"id":"bbdadbd35aae0071","fromNode":"0b7742b8f62bea84","fromSide":"right","toNode":"2f0aa8a7304a1e43","toSide":"left"},
+		{"id":"472ccf7bc26b2619","fromNode":"0b7742b8f62bea84","fromSide":"right","toNode":"57e317f5fb3a5fa7","toSide":"left"},
+		{"id":"657328b2945df63b","fromNode":"0b7742b8f62bea84","fromSide":"bottom","toNode":"e2bc434beb788c1e","toSide":"top"},
+		{"id":"11df3a487530ffee","fromNode":"e2bc434beb788c1e","fromSide":"left","toNode":"5c3fa7c86fab5a00","toSide":"right"},
+		{"id":"d89126385047a333","fromNode":"e2bc434beb788c1e","fromSide":"bottom","toNode":"61f207619194df6d","toSide":"top"}
 	]
 }
