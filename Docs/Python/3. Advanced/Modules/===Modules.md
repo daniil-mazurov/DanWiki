@@ -4,3 +4,7 @@
 - [[asyncio]]
 - [[argparse]]
 - [[re]]
+- [[pydantic]]
+- [[pandas]]
+- [[===Poetry]]
+- [[sphinx]]

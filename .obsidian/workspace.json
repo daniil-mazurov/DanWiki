@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Python/3. Advanced/Modules/asyncio.md",
+                "file": "Docs/Python/3. Advanced/Modules/===Modules.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Python/3. Advanced/Modules/asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Python/3. Advanced/Modules/asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docs/Python/3. Advanced/Modules/asyncio.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,53 +162,54 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "6696352e7efd9ef3",
+  "active": "ce3acf3ec1022f7c",
   "lastOpenFiles": [
-    "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
-    "Docs/Python/3. Advanced/Modules/asyncio.md",
     "Docs/Python/3. Advanced/Modules/===Modules.md",
-    "Docs/Python/3. Advanced/Package Managers/Poetry/Dict.md",
-    "Docs/Python/1. Base/Type Casting, Exceptions.md",
-    "Docs/Python/1. Base/===PyBasics.md",
     "Docs/Python/3. Advanced/===PyAdvanced.md",
+    "Docs/Python/3. Advanced/Modules/logging.md",
+    "Docs/Python/1. Base/Type Casting, Exceptions.md",
+    "Docs/Python/3. Advanced/Decorators.md",
+    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
     "Docs/Python Roadmap.canvas",
     "Docs/Python Roadmap.md",
+    "Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md",
+    "Docs/Errors/PowerShell.md",
+    "Docs/Commands/Linux.md",
+    "Docs/Commands/Windows.md",
+    "Docs/Errors/Python.md",
+    "Docs/Python/3. Advanced/RegEx.md",
+    "Docs/Python/3. Advanced/Paradigms.md",
+    "Docs/Python/1. Base/Functions, Builtin Functions.md",
+    "Docs/Python/3. Advanced/Modules/argparse.md",
+    "Docs/Python/3. Advanced/Package Managers/Poetry/Dict.md",
+    "Docs/Content.md",
+    "Docs/Python/3. Advanced/Modules/asyncio.md",
+    "logging_train/logs/py_log.log",
+    "logging_train/logs",
+    "logging_train/py_log.log",
+    "logging_train/src/__pycache__/config.cpython-312.pyc",
+    "logging_train/README.md",
+    "logging_train/pyproject.toml",
+    "logging_train/poetry.lock",
+    "logging_train/main.py",
+    "logging_train/compile.md",
+    "logging_train/tests/__init__.py",
+    "logging_train/tests/polygon.py",
+    "logging_train/tests/polygon.ipynb",
+    "project_template/README.md",
+    "project_template/template/README.md",
+    "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
+    "Docs/Python/1. Base/===PyBasics.md",
     "Docs/TODO.md",
     "Docs/_attachments/Asyncio2.jpg",
-    "test.py",
     "Docs/Моя энциклопедия.canvas",
-    "Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md",
-    "Docs/Python/2. Datastructures and algorythms/===PyDatastructure.md",
-    "Docs/Python/2. Datastructures and algorythms/===PyAlgorithms.md",
-    "Docs/Python/1. Base/Variables and Data Types.md",
-    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
-    "Docs/Python/1. Base/Functions, Builtin Functions.md",
-    "Docs/Python/1. Base/Basic Syntax.md",
     "Docs/_attachments/Asyncio.jpg",
-    "Docs/Python/3. Advanced/Paradigms.md",
-    "i.py",
     "Docs/_attachments/1_AYX4HrL47oD441FtPDG68A.webp",
-    "Docs/_attachments/Не подтверждено 154072.~",
     "Docs/_attachments/Python_async_threading_multi.jpg",
     "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
     "Docs/_attachments/set_operation.png",
     "Docs/_attachments/Python_types_structures.jpg",
     "Docs/_attachments/Python_types_structures.png",
-    "Docs/_attachments/Типы и структуры данных Python.pdf",
-    "Docs/_attachments/190f0661deb5799fa48e2b28385d98a4.png",
-    "Docs/img_src/Не подтверждено 829160.~",
-    "Docs/img_src/Не подтверждено 861640.~",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Формирование запросов.md",
-    "Docs/img_src/Не подтверждено 322039.~",
-    "Docs/img_src/Не подтверждено 84481.~",
-    "Docs/_attachments",
-    "img_src",
-    "Docs/Python/3. Advanced/Package Managers/===PackageManagers.md",
-    "Docs/Python/3. Advanced/OOP/===OOP.md",
-    "Docs/Stack/PostgreSQL/Tips.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/===SQLAlchemy.md",
-    "Docs/Stack/PostgreSQL/Быстрый старт.md",
-    "Docs/Errors/Python.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Создание конфигурации.md"
+    "Docs/_attachments/190f0661deb5799fa48e2b28385d98a4.png"
   ]
 }
