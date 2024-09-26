@@ -1,3 +1,7 @@
+---
+tags:
+  - content
+---
 - [[doctest]]
 - [[nose]]
 - [[pytest]]

@@ -8,6 +8,13 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
+      "query": "tag:base",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
       "query": "path:Docs/Commands  ",
       "color": {
         "a": 1,
@@ -19,13 +26,6 @@
       "color": {
         "a": 1,
         "rgb": 14048429
-      }
-    },
-    {
-      "query": "file:Py",
-      "color": {
-        "a": 1,
-        "rgb": 25343
       }
     },
     {
@@ -90,6 +90,20 @@
         "a": 1,
         "rgb": 12544492
       }
+    },
+    {
+      "query": "tag:#content  ",
+      "color": {
+        "a": 1,
+        "rgb": 8716288
+      }
+    },
+    {
+      "query": "path:Docs/Stack",
+      "color": {
+        "a": 1,
+        "rgb": 2303
+      }
     }
   ],
   "collapse-display": true,
@@ -97,11 +111,11 @@
   "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 2.69675126903553,
   "lineSizeMultiplier": 2.35388520109332,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.215072237407263,
-  "repelStrength": 16.5572252688555,
-  "linkStrength": 0.850651662986967,
+  "repelStrength": 14.2583170254403,
+  "linkStrength": 0.769275929549902,
   "linkDistance": 132,
-  "scale": 0.30033877124767344,
+  "scale": 0.30033877124767366,
   "close": true
 }

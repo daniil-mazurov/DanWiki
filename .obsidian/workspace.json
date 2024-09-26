@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "10356b6f3a3e55a2",
+        "id": "de18c3299add68ae",
         "type": "tabs",
-        "dimension": 40.96938775510204,
+        "dimension": 41.32653061224491,
         "children": [
           {
-            "id": "6696352e7efd9ef3",
+            "id": "181a37ef8bb2cf27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Python/3. Advanced/Modules/===Modules.md",
-                "mode": "source",
+                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,7 +25,7 @@
       {
         "id": "e9220eedcc640996",
         "type": "tabs",
-        "dimension": 59.03061224489796,
+        "dimension": 58.67346938775509,
         "children": [
           {
             "id": "ce3acf3ec1022f7c",
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Poetry",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md"
+              }
             }
           }
         ],
@@ -159,56 +163,58 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "excel:Create Excel File": false
+      "excel:Create Excel File": false,
+      "3d-graph:3D Graph": false
     }
   },
-  "active": "ce3acf3ec1022f7c",
+  "active": "181a37ef8bb2cf27",
   "lastOpenFiles": [
-    "Docs/Python/3. Advanced/Modules/===Modules.md",
-    "Docs/Python/3. Advanced/===PyAdvanced.md",
-    "Docs/Python/3. Advanced/Modules/logging.md",
-    "Docs/Python/1. Base/Type Casting, Exceptions.md",
+    "Docs/Python/3. Advanced/Package Managers/Poetry.md",
+    "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
+    "Docs/Stack/===Stack.md",
+    "Docs/Python/3. Advanced/Modules/argparse.md",
+    "Docs/Stack/PostgreSQL/Триггеры.md",
+    "Docs/Stack/cron.md",
     "Docs/Python/3. Advanced/Decorators.md",
+    "Docs/Python/3. Advanced/Modules/re.md",
+    "Docs/Stack/PostgreSQL/===PostgreSQL.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Работа с таблицами.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Формирование запросов.md",
+    "Docs/Python/3. Advanced/Modules/asyncio.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Подключение к БД.md",
+    "Docs/Stack/redis.md",
     "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
-    "Docs/Python Roadmap.canvas",
-    "Docs/Python Roadmap.md",
-    "Docs/Python/2. Datastructures and algorythms/Arrays and Linked Lists.md",
-    "Docs/Errors/PowerShell.md",
+    "Docs/Python/3. Advanced/Modules/===Modules.md",
+    "Docs/Python/3. Advanced/Modules/pydantic.md",
+    "Docs/Python/1. Base/Functions, Builtin Functions.md",
+    "Docs/Python/3. Advanced/Modules/pyenv.md",
+    "Docs/Python/Алгоритм развертывания проекта.md",
+    "Docs/Commands/WSL.md",
     "Docs/Commands/Linux.md",
     "Docs/Commands/Windows.md",
-    "Docs/Errors/Python.md",
-    "Docs/Python/3. Advanced/RegEx.md",
-    "Docs/Python/3. Advanced/Paradigms.md",
-    "Docs/Python/1. Base/Functions, Builtin Functions.md",
-    "Docs/Python/3. Advanced/Modules/argparse.md",
-    "Docs/Python/3. Advanced/Package Managers/Poetry/Dict.md",
-    "Docs/Content.md",
-    "Docs/Python/3. Advanced/Modules/asyncio.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Миграции с alembic.md",
+    "Docs/Python/4. Frameworks/FastAPI",
+    "Docs/Stack/git.md",
+    "Docs/Stack/ssh.md",
+    "Docs/Python Roadmap.canvas",
+    "Docs/_attachments/Типы и структуры данных Python.pdf",
+    "Docs/_attachments/Python_types_structures.jpg",
+    "Docs/_attachments/set_operation.png",
+    "Docs/_attachments/git-map.jpg",
+    "Docs/_attachments/Не подтверждено 995333.~",
+    "json-scheme.json",
+    "Docs/_attachments/json-scheme.json",
+    "Docs/_attachments/json-.json",
+    "Docs/_attachments/t.json",
+    "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
     "logging_train/logs/py_log.log",
     "logging_train/logs",
     "logging_train/py_log.log",
-    "logging_train/src/__pycache__/config.cpython-312.pyc",
-    "logging_train/README.md",
-    "logging_train/pyproject.toml",
-    "logging_train/poetry.lock",
-    "logging_train/main.py",
-    "logging_train/compile.md",
-    "logging_train/tests/__init__.py",
-    "logging_train/tests/polygon.py",
-    "logging_train/tests/polygon.ipynb",
-    "project_template/README.md",
-    "project_template/template/README.md",
-    "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
-    "Docs/Python/1. Base/===PyBasics.md",
-    "Docs/TODO.md",
     "Docs/_attachments/Asyncio2.jpg",
     "Docs/Моя энциклопедия.canvas",
     "Docs/_attachments/Asyncio.jpg",
     "Docs/_attachments/1_AYX4HrL47oD441FtPDG68A.webp",
     "Docs/_attachments/Python_async_threading_multi.jpg",
-    "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
-    "Docs/_attachments/set_operation.png",
-    "Docs/_attachments/Python_types_structures.jpg",
     "Docs/_attachments/Python_types_structures.png",
     "Docs/_attachments/190f0661deb5799fa48e2b28385d98a4.png"
   ]

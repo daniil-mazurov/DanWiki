@@ -10,7 +10,7 @@ from src.queries.async_orm import *
 from src.queries.core import *
 from src.queries.orm import *
 
-# create_tables()
+create_tables()
 # insert_data()
 # select_data()
 # update_data()

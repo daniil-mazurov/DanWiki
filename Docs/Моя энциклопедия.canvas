@@ -11,7 +11,7 @@
 		{"id":"bf4abb6f89376bf9","x":-560,"y":-80,"width":400,"height":400,"type":"file","file":"Docs/Stack/PostgreSQL/Tips.md"},
 		{"id":"19c108e64e09405c","type":"file","file":"Docs/Python/3. Advanced/Package Managers/Poetry/About.md","x":-1195,"y":590,"width":400,"height":400},
 		{"id":"4a822a850f639a2b","type":"text","text":"# Poetry","x":-1680,"y":760,"width":250,"height":60},
-		{"id":"409ccbf7d2f4487b","type":"file","file":"Docs/Python/3. Advanced/Package Managers/Poetry/Dict.md","x":-560,"y":590,"width":400,"height":400},
+		{"id":"409ccbf7d2f4487b","type":"file","file":"Docs/Python/3. Advanced/Package Managers/Poetry.md","x":-560,"y":590,"width":400,"height":400},
 		{"id":"6621818b1ecbd3de","x":-1655,"y":-1760,"width":200,"height":62,"type":"text","text":"# Мой сайт"}
 	],
 	"edges":[

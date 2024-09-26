@@ -1,2 +1,6 @@
+---
+tags:
+  - content
+---
 - [[Windows]]
 - [[Linux]]

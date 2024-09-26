@@ -1,6 +1,14 @@
-- [[===Poetry]]
+---
+tags:
+  - content
+---
+- [[Poetry]]
 - [[===PostgreSQL]]
 - [[===SQLAlchemy]]
 - [[git]]
 - [[Docker]]
 - [[RabbitMQ]]
+- [[ssh]]
+- [[cron]]
+- [[redis]]
+- [[Scaleway]]

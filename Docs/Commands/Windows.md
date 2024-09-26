@@ -19,3 +19,6 @@ C:\Users\<имя_пользователя>\AppData\Roaming\Microsoft\Windows\Sta
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 ```
 6. Найдите в списке папок нужную и удалите ее, воспользовавшись клавишей _Delete_ или контекстным меню.
+
+# WSL
+[[WSL]]

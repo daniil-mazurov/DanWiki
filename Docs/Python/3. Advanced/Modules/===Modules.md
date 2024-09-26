@@ -1,3 +1,7 @@
+---
+tags:
+  - content
+---
 - [[Builtin]]
 - [[Custom]]
 - [[logging]]
@@ -6,5 +10,10 @@
 - [[re]]
 - [[pydantic]]
 - [[pandas]]
-- [[===Poetry]]
+- [[Poetry]]
 - [[sphinx]]
+- [[pyenv]]
+- [[virtualenv]]
+- [[shutil]]
+- [[celery]]
+- [[redis]]

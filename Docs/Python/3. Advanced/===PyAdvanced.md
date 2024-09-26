@@ -1,3 +1,7 @@
+---
+tags:
+  - content
+---
 - [[Iterators]]
 - [[RegEx]]
 - [[Decorators]]
@@ -8,3 +12,4 @@
 - [[Comprehensions and Generators]]
 - [[Paradigms]]
 - [[Async vs Threading vs Multiprocessing]]
+- [[environments]]

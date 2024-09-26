@@ -1,3 +1,7 @@
+---
+tags:
+  - content
+---
 - [[Basic Syntax]]
 - [[Variables and Data Types]]
 - [[Conditionals]]

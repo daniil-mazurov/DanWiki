@@ -1,3 +1,7 @@
+---
+tags:
+  - content
+---
 - [[Classes]]
 - [[Inheritance]]
 - [[Methods]]
