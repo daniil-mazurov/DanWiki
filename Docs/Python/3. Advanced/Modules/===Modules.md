@@ -2,8 +2,6 @@
 tags:
   - content
 ---
-- [[Builtin]]
-- [[Custom]]
 - [[logging]]
 - [[asyncio]]
 - [[argparse]]
@@ -17,3 +15,7 @@ tags:
 - [[shutil]]
 - [[celery]]
 - [[redis]]
+- [[===SQLAlchemy]]
+- [[FastAPI]]
+- [[gevent]]
+- [[aiogram]]

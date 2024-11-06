@@ -6,7 +6,6 @@ tags:
 - [[===PyDatastructure]]
 - [[===PyAlgorithms]]
 - [[===PyAdvanced]]
-- [[===PyFrameworks]]
 - [[===PyTesting]]
 
 |                 |                                                                                       |                                                                                                                              |

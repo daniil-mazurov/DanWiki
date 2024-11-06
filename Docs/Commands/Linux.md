@@ -28,3 +28,7 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 
 # WSL
 [[WSL]]
+# Cron
+[[cron]]
+# Supervisor
+[[supervisor]]

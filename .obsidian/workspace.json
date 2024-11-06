@@ -9,15 +9,17 @@
         "dimension": 41.32653061224491,
         "children": [
           {
-            "id": "181a37ef8bb2cf27",
+            "id": "4512c22ad77ca274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
+                "file": "Docs/Stack/Linux/supervisor.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "supervisor"
             }
           }
         ]
@@ -34,7 +36,9 @@
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
         ]
@@ -57,7 +61,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -72,7 +78,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -80,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -103,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
+                "file": "Docs/Python/3. Advanced/Modules/argparse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +121,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для argparse"
             }
           },
           {
@@ -120,10 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
+                "file": "Docs/Python/3. Advanced/Modules/argparse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из argparse"
             }
           },
           {
@@ -134,7 +148,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -143,8 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md"
-              }
+                "file": "Docs/Python/3. Advanced/Modules/argparse.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура argparse"
             }
           }
         ],
@@ -167,35 +185,37 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "181a37ef8bb2cf27",
+  "active": "ce3acf3ec1022f7c",
   "lastOpenFiles": [
-    "Docs/Python/3. Advanced/Package Managers/Poetry.md",
-    "Docs/Python/4. Frameworks/FastAPI/===FastAPI.md",
-    "Docs/Stack/===Stack.md",
-    "Docs/Python/3. Advanced/Modules/argparse.md",
-    "Docs/Stack/PostgreSQL/Триггеры.md",
-    "Docs/Stack/cron.md",
-    "Docs/Python/3. Advanced/Decorators.md",
-    "Docs/Python/3. Advanced/Modules/re.md",
-    "Docs/Stack/PostgreSQL/===PostgreSQL.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Работа с таблицами.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Формирование запросов.md",
-    "Docs/Python/3. Advanced/Modules/asyncio.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Подключение к БД.md",
-    "Docs/Stack/redis.md",
-    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
+    "Docs/Stack/Linux/supervisor.md",
+    "Docs/Python/3. Advanced/Modules/logging.md",
     "Docs/Python/3. Advanced/Modules/===Modules.md",
+    "Docs/Python/3. Advanced/Modules/aiogram.md",
+    "bot.md",
     "Docs/Python/3. Advanced/Modules/pydantic.md",
-    "Docs/Python/1. Base/Functions, Builtin Functions.md",
-    "Docs/Python/3. Advanced/Modules/pyenv.md",
-    "Docs/Python/Алгоритм развертывания проекта.md",
-    "Docs/Commands/WSL.md",
-    "Docs/Commands/Linux.md",
-    "Docs/Commands/Windows.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Миграции с alembic.md",
-    "Docs/Python/4. Frameworks/FastAPI",
+    "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
+    "Docs/Python Knowledge.md",
+    "ПРЕЗЕНТАЦИИ.md",
+    "===PyFrameworks.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Создание конфигурации.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/===SQLAlchemy.md",
+    "Docs/Python/4. Frameworks/===PyFrameworks.md",
+    "Docs/Python/4. Frameworks/FastAPI/FastAPI.md",
     "Docs/Stack/git.md",
-    "Docs/Stack/ssh.md",
+    "Docs/Python/1. Base/Basic Syntax.md",
+    "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
+    "Docs/TODO.md",
+    "Docs/Python/3. Advanced/Modules/argparse.md",
+    "Docs/Моя энциклопедия.canvas",
+    "Docs/Python/3. Advanced/Modules/pyenv.md",
+    "Docs/Python/3. Advanced/Modules/asyncio.md",
+    "Docs/Python/4. Frameworks/SQLAlcheemy/Формирование запросов.md",
+    "Docs/Python/3. Advanced/===PyAdvanced.md",
+    "Builtin.md",
+    "Docs/Systems.md",
+    "Docs/Errors/===Errors.md",
+    "Docs/Stack/Linux",
+    "Docs/Python/4. Frameworks/FastAPI",
     "Docs/Python Roadmap.canvas",
     "Docs/_attachments/Типы и структуры данных Python.pdf",
     "Docs/_attachments/Python_types_structures.jpg",
@@ -209,9 +229,7 @@
     "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
     "logging_train/logs/py_log.log",
     "logging_train/logs",
-    "logging_train/py_log.log",
     "Docs/_attachments/Asyncio2.jpg",
-    "Docs/Моя энциклопедия.canvas",
     "Docs/_attachments/Asyncio.jpg",
     "Docs/_attachments/1_AYX4HrL47oD441FtPDG68A.webp",
     "Docs/_attachments/Python_async_threading_multi.jpg",
