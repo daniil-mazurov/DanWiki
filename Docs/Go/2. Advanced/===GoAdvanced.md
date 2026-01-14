@@ -1,0 +1,2 @@
+- [[Docs/Go/2. Advanced/Modules/===Modules]]
+- [[Методы]]
