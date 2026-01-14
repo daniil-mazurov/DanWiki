@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -92,6 +92,20 @@
       }
     },
     {
+      "query": "path:Docs/Go/1.Base  ",
+      "color": {
+        "a": 1,
+        "rgb": 8322887
+      }
+    },
+    {
+      "query": "path:\"Docs/Go/2. Advanced/Modules\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3063772
+      }
+    },
+    {
       "query": "tag:#content  ",
       "color": {
         "a": 1,
@@ -111,11 +125,11 @@
   "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 2.69675126903553,
   "lineSizeMultiplier": 2.35388520109332,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.215072237407263,
   "repelStrength": 14.2583170254403,
   "linkStrength": 0.769275929549902,
   "linkDistance": 132,
-  "scale": 0.5517575493145982,
+  "scale": 0.13348388671875,
   "close": true
 }

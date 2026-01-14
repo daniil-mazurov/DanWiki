@@ -3,11 +3,11 @@ tags:
   - content
 ---
 - [[Iterators]]
-- [[RegEx]]
+- [[re]]
 - [[Decorators]]
 - [[Lamdas]]
 - [[===OOP]]
-- [[===Modules]]
+- [[Docs/Python/3. Advanced/Modules/===Modules]]
 - [[===PackageManagers]]
 - [[Comprehensions and Generators]]
 - [[Paradigms]]

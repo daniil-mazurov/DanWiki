@@ -9,3 +9,4 @@ tags:
 - [[ssh]]
 - [[redis]]
 - [[Scaleway]]
+- [[===ansible]]

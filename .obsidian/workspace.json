@@ -4,30 +4,87 @@
     "type": "split",
     "children": [
       {
-        "id": "de18c3299add68ae",
+        "id": "e9220eedcc640996",
         "type": "tabs",
-        "dimension": 57.26172465960666,
+        "dimension": 44.195888754534465,
         "children": [
           {
-            "id": "4512c22ad77ca274",
+            "id": "cd448a679aa8bee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Python/5. Testing/pytest.md",
+                "file": "Docs/Go/1.Base/Basic Syntax Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pytest"
+              "title": "Basic Syntax Go"
+            }
+          },
+          {
+            "id": "27f60e79dac57a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Go/1.Base/Указатели.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Указатели"
+            }
+          },
+          {
+            "id": "e1f9ad41e541d7ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Python/3. Advanced/Modules/re.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "re"
+            }
+          },
+          {
+            "id": "a96c63f43153574e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Stack/Ansible/Инструменты командной строки.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Инструменты командной строки"
+            }
+          },
+          {
+            "id": "1d4be1703844b47e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Go/2. Advanced/Modules/===Modules.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "===Modules"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
-        "id": "e9220eedcc640996",
+        "id": "015d5e68c5e22bbb",
         "type": "tabs",
-        "dimension": 42.73827534039334,
+        "dimension": 55.804111245465535,
         "children": [
           {
             "id": "ce3acf3ec1022f7c",
@@ -60,7 +117,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -97,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 222.5
   },
   "right": {
     "id": "6a42c92b3beb11dc",
@@ -175,6 +233,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -187,32 +246,41 @@
   },
   "active": "bffca92c6fbdc01c",
   "lastOpenFiles": [
-    "Docs/Python/5. Testing/pytest.md",
-    "Docs/Python/3. Advanced/Modules/===Modules.md",
-    "Docs/Stack/Docker.md",
-    "Docs/Python/3. Advanced/Package Managers/Poetry.md",
+    "Docs/Go/2. Advanced/Modules/===Modules.md",
+    "Docs/Go/2. Advanced/Методы.md",
+    "Docs/Go/2. Advanced/===GoAdvanced.md",
+    "Docs/Python/3. Advanced/Modules/re.md",
+    "Docs/Python/3. Advanced/Decorators.md",
     "Docs/Stack/git.md",
-    "Docs/Python/Алгоритм развертывания проекта.md",
-    "Docs/Stack/Linux/supervisor.md",
-    "Docs/Python/3. Advanced/Package Managers/pipx.md",
-    "Docs/Python/3. Advanced/Modules/pyenv.md",
-    "Docs/Stack/ssh.md",
-    "Docs/Python/3. Advanced/Modules/logging.md",
-    "Docs/Python/3. Advanced/Modules/aiogram.md",
-    "bot.md",
-    "Docs/Python/3. Advanced/Modules/pydantic.md",
     "Docs/Python/1. Base/Lists, Tuples, Sets, Dictionaries.md",
-    "Docs/Python Knowledge.md",
-    "ПРЕЗЕНТАЦИИ.md",
-    "===PyFrameworks.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/Создание конфигурации.md",
-    "Docs/Python/4. Frameworks/SQLAlcheemy/===SQLAlchemy.md",
-    "Docs/Python/4. Frameworks/===PyFrameworks.md",
-    "Docs/Python/4. Frameworks/FastAPI/FastAPI.md",
     "Docs/Python/1. Base/Basic Syntax.md",
-    "Docs/Python/3. Advanced/Async vs Threading vs Multiprocessing.md",
-    "Docs/TODO.md",
-    "Docs/Python/3. Advanced/Modules/argparse.md",
+    "Docs/Python/2. Datastructures and algorythms/===PyDatastructure.md",
+    "Docs/Stack/Ansible/Инструменты командной строки.md",
+    "Docs/Stack/===Stack.md",
+    "Docs/Stack/Ansible/===ansible.md",
+    "Docs/Go/1.Base/Инструменты командной строки.md",
+    "Docs/Go/1.Base/Работа с константами (Const & iota).md",
+    "Docs/Stack/Linux/Без названия.md",
+    "Docs/Stack/Ansible",
+    "Docs/Stack/ssh.md",
+    "Docs/Python/3. Advanced/Modules/pydantic.md",
+    "Docs/Go/2. Advanced/Modules/bufio.md",
+    "Docs/Go/2. Advanced/Modules/(fmt) Форматирование строк.md",
+    "Docs/Go/1.Base/===GoBasics.md",
+    "Docs/Go/1.Base/Циклы.md",
+    "Docs/Go/1.Base/Maps.md",
+    "Docs/Go/1.Base/Срезы & Slices.md",
+    "Docs/Go/1.Base/Массивы & Arrays.md",
+    "Docs/Go/1.Base/Структуры & Structures.md",
+    "Docs/Go/1.Base/Условия.md",
+    "Без названия 1",
+    "ff",
+    "Docs/Go/2. Advanced/Modules",
+    "Docs/Go/2. Advanced",
+    "Docs/Go/1.Base",
+    "Docs/Go",
+    "Docs/_attachments/Asyncio2.jpg",
+    "Без названия.canvas",
     "Docs/Моя энциклопедия.canvas",
     "Docs/Stack/Linux",
     "Docs/Python/4. Frameworks/FastAPI",
@@ -221,15 +289,7 @@
     "Docs/_attachments/Python_types_structures.jpg",
     "Docs/_attachments/set_operation.png",
     "Docs/_attachments/git-map.jpg",
-    "Docs/_attachments/Не подтверждено 995333.~",
-    "json-scheme.json",
-    "Docs/_attachments/json-scheme.json",
-    "Docs/_attachments/json-.json",
-    "Docs/_attachments/t.json",
     "Docs/_attachments/try_except_else.703aaeeb63d3.avif",
-    "logging_train/logs/py_log.log",
-    "logging_train/logs",
-    "Docs/_attachments/Asyncio2.jpg",
     "Docs/_attachments/Asyncio.jpg",
     "Docs/_attachments/1_AYX4HrL47oD441FtPDG68A.webp",
     "Docs/_attachments/Python_async_threading_multi.jpg",
